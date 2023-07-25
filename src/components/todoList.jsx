@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./todoList.css";
 
 const TodoList = () => {
   const [tasks, setTasks] = useState([]);
@@ -16,7 +17,7 @@ const TodoList = () => {
   };
 
   return (
-    <div>
+    <div className="todo">
       <h2>Todo List</h2>
       <div>
         <input
